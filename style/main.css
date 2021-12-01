@@ -25,7 +25,7 @@
         margin: auto;
         padding: .9375rem;
     }
-    .nav_mobile{
+    .hamburger_menu{
         display: none;
     }
     .main_title{
@@ -94,12 +94,11 @@ body{
 /* Main */
 
 .main_text_container{
-    margin-top:1.875rem;
+  
 }
 .main_title{
     font-weight: bold;
-    margin-bottom: 2.5rem;
-    padding: 2.5rem 0;
+    margin: 2.5rem 0;
     background: -webkit-linear-gradient(#63b6e6, #2222a0, #77284d, #1a0406);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -110,7 +109,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #425466;
     font-weight: 500;
-     line-height: 200%;
+    line-height: 200%;
 }
 
-
+.main_text_container button{
+    margin: .625rem 0;
+}

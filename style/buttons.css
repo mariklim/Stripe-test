@@ -1,0 +1,43 @@
+.btn_arrow{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: .625rem;
+    border-radius: 1.03125rem;
+    border:0;
+}
+
+/* font awesome */
+.angle_right{
+margin-left:.3125rem;
+}
+
+.btn_dark{
+    background-color: #0a2540;
+    color: white;
+}
+
+.btn_light{
+    background-color: rgba(255, 255, 255, 0.561);
+    color: white;
+}
+
+.btn_trasparent{
+    background-color: rgba(255, 255, 255, 0);
+    color: #0a2540;
+}
+
+/* hover */
+.btn_arrow:hover{
+    cursor: pointer;
+}
+
+.btn_dark:hover{
+    background-color: #0a2540a2;
+}
+.btn_light:hover{
+    background-color: rgba(255, 255, 255, 0.726);
+}
+.btn_trasparent:hover{
+    color: #0a2540bb;
+}
+
