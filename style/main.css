@@ -2,13 +2,18 @@
 .container{
     width: 100vw;
     margin: none;
-    
+}
+.main_title{
+    font-size: 3.125rem;
 }
 }
 @media screen and  (min-width:768px) and (max-width:991px){
     .container{
         width: 70vw;
         margin: auto;
+    }
+    .main_title{
+        font-size: 3.75rem;
     }
     
 }
@@ -19,6 +24,9 @@
     }
     .nav_mobile{
         display: none;
+    }
+    .main_title{
+        font-size: 4.375rem;
     }
     
 }
@@ -71,4 +79,14 @@
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.609);
 
+}
+
+/* Main */
+.main_title{
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    padding: 2.5rem 0;
+    background: -webkit-linear-gradient(#63b6e6, #2222a0, #77284d, #1a0406);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
