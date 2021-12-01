@@ -10,6 +10,9 @@
 .hero{
     display: none;
 }
+.col_team{
+    width: calc(100% / 2);
+}
 }
 @media screen and  (min-width:768px) and (max-width:991px){
     .container{
@@ -18,9 +21,11 @@
         padding: .9375rem;
     }
     .main_title{
-        font-size: 3.75rem;
+        font-size: 3.4375rem;
     }
-    
+    .col_team{
+        width: calc(100% / 2);
+    }
 }
 @media screen and (min-width:992px){
     .container{
@@ -32,12 +37,14 @@
         display: none;
     }
     .main_title{
-        font-size: 4.0625rem;
+        font-size: 3.75rem;
     }
     canvas{
         top:-30vh;
     }
-    
+    .col_team{
+        width: calc(100% / 4);
+    }
 }
 
 
@@ -108,7 +115,7 @@ body{
     font-weight: bold;
     margin: 2.5rem 0;
     color: #0a2540de;
-    /* background: -webkit-linear-gradient(#63b6e6, #2222a0, #77284d, #1a0406);
+    /* background: -webkit-linear-gradient(#051b27, #2222a0, #77284d, #1a0406);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
     line-height: 110%;
@@ -132,6 +139,13 @@ body{
 .hero{
     position: relative;
     left: 6%;
-  
-    
+}
+
+/* Commercial teams */
+.commercial_teams{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col_team{
+    padding: 1.25rem;
 }
