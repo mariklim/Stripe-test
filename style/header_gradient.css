@@ -1,0 +1,17 @@
+/* Gradient */
+#gradient-canvas {
+    --gradient-color-1: #a960ee;
+    --gradient-color-2: #ff333d;
+    --gradient-color-3: #90e0ff;
+    --gradient-color-4: #ffcb57;
+}
+ canvas {
+    position: absolute;
+    top: -30vh;
+    transform: skewY(-12deg);
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;     
+}
+
