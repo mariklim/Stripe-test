@@ -1,7 +1,9 @@
 .btn_arrow{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    padding: .625rem;
+    min-width: 6.25rem;
+    height:2.1875rem;
+    padding: .3125rem;
     border-radius: 1.03125rem;
     border:0;
 }
@@ -19,6 +21,11 @@ margin-left:.3125rem;
 .btn_light{
     background-color: rgba(255, 255, 255, 0.424);
     color: white;
+}
+
+.btn_blue{
+    background-color: #3d35d3;;
+    color: #ffffff;
 }
 
 .btn_trasparent{

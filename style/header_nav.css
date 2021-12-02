@@ -46,16 +46,17 @@ nav ul ul.dropdown {
     display: none;
     position: absolute;
     right: 1.25rem;
-    top: 2rem;
+    top: 2.0625rem;
     -webkit-box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75);
-    box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75); /* the height of the main nav */
+    box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75); 
 }
         
     /* Display Dropdowns on Hover */
 nav ul li:hover > ul {
     display:inline-block;
     background-color: white;
+    padding: 1.25rem;
     
  }
         
@@ -80,7 +81,8 @@ nav ul ul li {
 }
 .links_set{
     display: flex;
-    align-items: center;
+    align-items: center;    
+    margin-bottom: .625rem;
 
 }
 
