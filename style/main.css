@@ -67,7 +67,12 @@
     margin: 0;
     padding: 0;
 }
-
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
 /* typo */
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
@@ -82,10 +87,7 @@ body{
 } */
 
 /* Header */
-.header-nav{
-    background-color: aqua;
-    height: 50px;
-}
+
 
 .logo{
     width: 5rem;

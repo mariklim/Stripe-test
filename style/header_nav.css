@@ -1,5 +1,13 @@
-.nav_desktop ul{
-    list-style: none;
+.nav_desktop{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.col.d-flex{
+    display: flex;
+}
+.nav_desktop ul.ul-flex{
     display: flex;
     align-items: center;
 }
@@ -7,24 +15,19 @@
     padding: 0 1.25rem;
     
 }
-.nav_desktop ul li a{
+.nav_desktop ul li a.links_desktop{
     font-family: 'Open Sans', sans-serif; 
     text-decoration: none;
     color: white;
     font-size: 1rem;
     font-weight: 700;
 }
-
-.nav_desktop{
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-}
-
-
-/* .nav_desktop ul li a:hover{
+.nav_desktop ul li a.links_desktop:hover{
     color: rgba(255, 255, 255, 0.698);
-} */
+} 
+
+
+
 
 /* Dropdowns */
 .nav_desktop ul li a.dropd_link{
@@ -35,26 +38,23 @@ nav ul {
 	position: relative;
 }
 	
-nav ul li {
-	display:inline-block;
-}
-
- nav a {
-     display:block;;
-}
 
     
 /* Hide Dropdowns by Default */
 nav ul ul.dropdown {
+    z-index: 10;
     display: none;
     position: absolute;
     right: 1.25rem;
-    top: 2rem; /* the height of the main nav */
+    top: 2rem;
+    -webkit-box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75); /* the height of the main nav */
 }
         
     /* Display Dropdowns on Hover */
 nav ul li:hover > ul {
-    display:inherit;
+    display:inline-block;
     background-color: white;
     
  }
@@ -64,11 +64,12 @@ nav ul ul li {
     position: relative;
 }
     
-.dropdown li{
+.dropdown li.li_flex{
     display: flex;
 }
 .dropdown li .col{
-    padding: 1.25rem 1.875rem;
+    padding: .9375rem 1.875rem;
+    min-width: 15.625rem;
 }
 
 .dropdown li h2{
@@ -97,6 +98,7 @@ color: #0a2540;
   transition: 0.2s;
 }
 
+
 .links_set:hover .light_link{
     color: #0a2540;
 }
@@ -109,4 +111,72 @@ color: #0a2540;
 }
 .links_set:hover .dark_link::after{
     display: inline-block;
+}
+
+/* casi d'uso */
+
+.links_set i{
+    color: #8c9eb1;
+}
+
+/* Dev */
+ul .dev_links{
+    display: inline-block;
+}
+
+ul .dev_links li{
+    padding: .3125rem 0;
+}
+ul .dev_links li a{
+    color: #0a2540c9;
+    font-weight: 400;
+    font-size: 14px;
+}
+ul .dev_links li a:hover{
+    color: #0a2540;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* Agenzia */
+.card_light_blu{
+    background-color: rgba(176, 195, 214, 0.096);
+    text-align:left;
+}
+
+ul .card_light_blu  li a{
+    color: #0a2540;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.card_light_blu ul li a:hover{
+    color: #0a2540;
+}
+
+a.agency_link{
+    font-size: .875rem;
+    font-weight: 600;
+    color: #0a2540;
+}
+span.agency_icon > i{
+ color: #8c9eb1;
+}
+
+.icon_active:hover span.agency_icon > i{
+    color: #0a2540;
+}
+
+/* blog */
+
+
+
+ul.blog_links li a{
+    font-weight: 400;
+}
+
+ul.blog_links li a:hover{
+    font-weight: 500;
 }
