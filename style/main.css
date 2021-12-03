@@ -23,7 +23,7 @@
 
 @media screen and  (min-width:768px) and (max-width:991px){
     .container{
-        width: 70vw;
+        width: 70%;
         margin: auto;
         padding: 1.875rem .9375rem;
     }
@@ -39,7 +39,7 @@
 }
 @media screen and (min-width:992px){
     .container{
-        width:70vw;
+        width:70%;
         margin: auto;
         padding: 1.875rem .9375rem;
     }
@@ -83,13 +83,9 @@ li a{
 font-family: 'Open Sans', sans-serif; */
 body{
     font-family: 'Open Sans', sans-serif;
-    width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
 }
-
-/* containers */
-/* .container{
-    padding: .9375rem;
-} */
 
 /* Header */
 

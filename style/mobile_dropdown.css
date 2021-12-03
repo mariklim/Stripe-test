@@ -5,10 +5,11 @@
     -webkit-box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75);
     box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75);
-    display: none;
-  
 }
 
+.visible{
+    display: none;
+}
 .box-mob-dropdown h2{
     font-size: 1.25rem;
     color:#8898aa;
